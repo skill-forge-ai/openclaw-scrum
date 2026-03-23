@@ -1,0 +1,50 @@
+{
+  "id": "SPR-001",
+  "name": "Auth MVP",
+  "goal": "Deliver core authentication — registration, login, and JWT token management",
+  "start": "2026-03-20",
+  "end": "2026-03-24",
+  "duration_days": 5,
+  "status": "active",
+  "velocity_planned": 8,
+  "velocity_actual": null,
+  "items": [
+    {
+      "id": "S-001",
+      "type": "story",
+      "title": "User registration with email verification",
+      "epic": "E-001",
+      "sprint": "SPR-001",
+      "status": "done",
+      "priority": "P0",
+      "points": 3,
+      "labels": ["auth", "backend"],
+      "created": "2026-03-20"
+    },
+    {
+      "id": "S-002",
+      "type": "story",
+      "title": "Login flow with JWT tokens",
+      "epic": "E-001",
+      "sprint": "SPR-001",
+      "status": "done",
+      "priority": "P0",
+      "points": 2,
+      "labels": ["auth", "backend"],
+      "created": "2026-03-20"
+    },
+    {
+      "id": "S-004",
+      "type": "story",
+      "title": "Password reset via email",
+      "epic": "E-001",
+      "sprint": "SPR-001",
+      "status": "in_progress",
+      "priority": "P1",
+      "points": 3,
+      "labels": ["auth", "backend"],
+      "created": "2026-03-21"
+    }
+  ],
+  "retro": null
+}
