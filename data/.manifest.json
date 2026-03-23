@@ -1,0 +1,6 @@
+{
+  "backlog.json": "Product backlog — all work items not assigned to a sprint",
+  "current-sprint.json": "Active sprint metadata + items (created by /scrum sprint plan)",
+  "sprints/archive/": "Completed sprint JSONs (SPR-001.json, SPR-002.json, ...)",
+  "metrics/velocity.json": "Rolling velocity data across sprints"
+}
